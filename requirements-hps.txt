@@ -1,0 +1,2 @@
+# Optional scorer used by the HPS v2.0 command.
+hpsv2 @ git+https://github.com/tgxs002/HPSv2.git@866735ecaae999fa714bd9edfa05aa2672669ee3

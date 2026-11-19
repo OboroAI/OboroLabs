@@ -1,0 +1,2 @@
+# Install OboroLabs from the project directory. The client has no runtime dependencies.
+.

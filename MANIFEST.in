@@ -1,0 +1,4 @@
+include README.ru.md requirements.txt requirements-compbench.txt requirements-hps.txt
+include assets/oborolabs.png
+recursive-include docs *.md
+recursive-include examples *.json *.csv

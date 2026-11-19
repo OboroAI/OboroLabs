@@ -1,0 +1,13 @@
+{
+  "workflow": "workflow.api.json",
+  "output_node": "8",
+  "runtime": "Record the ComfyUI revision, dependencies and hardware here.",
+  "profiles": [
+    {"id": "candidate", "checkpoint": "candidate.safetensors", "steps": 4},
+    {"id": "reference", "checkpoint": "reference.safetensors", "steps": 20}
+  ],
+  "cases": [
+    {"id": "cube", "prompt": "A yellow wooden cube on a blue table.", "seed": 41, "width": 512, "height": 512},
+    {"id": "boats", "prompt": "Two small boats by a quiet harbor.", "seed": 42, "width": 512, "height": 512}
+  ]
+}

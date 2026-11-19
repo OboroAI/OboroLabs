@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+out/
+*.local.json
+.venv/
+.venv-compbench/
+.venv-hps/
+/T2I-CompBench/
+/build/
+/dist/
+/*.egg-info/
+
+.DS_Store

@@ -1,0 +1,9 @@
+# Install torch and torchvision for your hardware first.
+# The pinned upstream CLIP script imports pkg_resources.
+setuptools<82
+numpy
+Pillow
+spacy
+tqdm
+ftfy
+regex

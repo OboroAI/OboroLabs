@@ -1,0 +1,11 @@
+{
+  "workflow": "workflow.api.json",
+  "output_node": "8",
+  "runtime": "Smoke test. Record the server revision, dependencies, and hardware for measured studies.",
+  "profiles": [
+    {"id": "sd15", "checkpoint": "v1-5-pruned-emaonly-fp16.safetensors", "steps": 4}
+  ],
+  "cases": [
+    {"id": "cube", "prompt": "A yellow wooden cube on a blue table.", "seed": 41, "width": 512, "height": 512}
+  ]
+}
